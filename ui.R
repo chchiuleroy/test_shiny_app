@@ -1,5 +1,10 @@
 library(shiny)
-source('lottery_test.R')
+#source('lottery_test.R')
+A = read.csv("A.csv", header = T, sep = ",")
+B = read.csv("B.csv", header = T, sep = ",")
+C = read.csv("C.csv", header = T, sep = ",")
+D = read.csv("D.csv", header = T, sep = ",")
+E = read.csv("E.csv", header = T, sep = ",")
 
 # Define UI for random distribution application 
 shinyUI(fluidPage(
